@@ -7,3 +7,4 @@ import dash_html_components as html
 # Create a visualization with interactivity. Similar to Exercise 2,
 # you can decide what you want to use as data and
 # chart type.
+

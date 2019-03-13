@@ -35,6 +35,12 @@ for title in fields:
             mode='lines+markers',
             name=title
         )
+        # go.Scatter(
+        #     x=dg.index,
+        #     y=dg["Ped South"],
+        #     mode='lines+markers',
+        #     name="Ped South"
+        # )
     )
 
 

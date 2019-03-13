@@ -8,6 +8,7 @@ import pandas as pd
 # initialize Dash app and initialize the static folder
 app = dash.Dash(__name__, static_folder='static')
 df = pd.read_csv('static/data_car_2004.csv')
+
 # set layout of the page
 app.layout = html.Div(children=[
 
@@ -29,7 +30,7 @@ app.layout = html.Div(children=[
                 # but with the mode to be only "markers"
                 go.Scatter(
                     x=df['HP'],
-                    y=df['Weight'],
+                    y=df['Dealer Cost'],
                     mode='markers',
                     text=df['Vehicle Name'],  # This line sets the vehicle name as the points' labels.
                     marker={
